@@ -1,0 +1,182 @@
+* {
+    font-family: "Figtree";
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 240px 540px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+}
+main > div {
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+
+svg {
+    width: 100%;
+    border-radius: 13%;
+    margin-top: 10px;
+}
+
+.tag {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+span {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.date {
+    margin-top: -5px;
+}
+.date p {
+    font-weight: 500;
+}
+
+.title {
+    margin-top: -15px;
+}
+h2 {
+    margin-bottom: -5px;
+    font-weight: 800;
+}
+
+.desc {
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.name p {
+    margin-left: 10px;
+    font-weight: 800;
+}
+img {
+    display: inline;
+    width: 32px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  /* This code below will keep the main element centered */
+  @media screen and (min-width: 1480px) {
+    main {
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    svg {
+        border-radius: 13%;
+    }
+}
+  /*
+Formula for resizing width
+Height will stay
+
+<main> element content-box
+example:
+ 352 Width @ 1440*960
+-269 Width @ 1357*960	     
+  83
+  /2
+41.5
+83 for every increment the resolution decreases
+subtract 41.5 on both right and left margins
+copied and pastied 14 times
+don't know if there is an easier way to do this
+  */
+
+@media screen and (max-width: 1356px) {
+    main {
+        margin: 240px 497.5px 240px 498.5px;
+    }  
+}
+@media screen and (max-width: 1273px) {
+    main {
+        margin: 240px 456.5px 240px 457.5px;
+    }  
+}
+@media screen and (max-width: 1192px) {
+    main {
+        margin: 240px 416.5px 240px 417.5px;
+    }
+}
+@media screen and (max-width: 1109px) {
+    main {
+        margin: 240px 375px 240px 376px;
+    }
+}
+@media screen and (max-width: 1109px) {
+    main {
+        margin: 240px 375px 240px 376px;
+    }
+}
+@media screen and (max-width: 1026px) {
+    main {
+        margin: 240px 333.5px 240px 334.5px;
+    }
+}
+@media screen and (max-width: 943px) {
+    main {
+        margin: 240px 292px 240px 293px;
+    }
+}
+@media screen and (max-width: 860px) {
+    main {
+        margin: 240px 250.5px 240px 251.5px;
+    }
+}
+@media screen and (max-width: 777px) {
+    main {
+        margin: 240px 209px 240px 210px;
+    }
+}
+@media screen and (max-width: 694px) {
+    main {
+        margin: 240px 167.5px 240px 168.5px;
+    }
+}
+@media screen and (max-width: 611px) {
+    main {
+        margin: 240px 126px 240px 127px;
+    }
+}
+@media screen and (max-width: 528px) {
+    main {
+        margin: 240px 84.5px 240px 85.5px;
+    }
+}
+@media screen and (max-width: 445px) {
+    main {
+        margin: 240px 43px 240px 44px;
+    }
+}
+@media screen and (max-width: 375px) {
+    main {
+        margin: 240px 1.5px 240px 1.5px;
+    }
+}
