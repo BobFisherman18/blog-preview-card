@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/blog-preview-card-using-flexbox-xF4EN0_IMh)
 - Live Site URL: [Blog Preview Card](https://bobfisherman18.github.io/blog-preview-card/)
 
 ## My process
